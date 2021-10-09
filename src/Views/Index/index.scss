@@ -1,0 +1,35 @@
+.content{
+    background: #080e1d;
+}
+.topTitle{
+    display: flex;
+    justify-content: space-between;
+    background: #0a173d;
+}
+.center{
+    width:80%;
+    height: 100px;
+    position:relative;
+    .top{
+        position: absolute;
+        left:0;
+        right:0;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 700;
+        color:#fff;
+    }
+}
+.content_line{
+    background-color: #0a173d;
+    margin-top: 20px;
+}
+.content_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom{
+    width:80%;
+    height: 60px;
+}
